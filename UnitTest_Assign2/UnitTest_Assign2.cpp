@@ -20,8 +20,21 @@ namespace TASK1
 			int Result = getPerimeter(&length, &width);
 			Assert::AreEqual(60, Result);
 		}
+		TEST_METHOD(getArea_LenghtWidth_areacalculation)
+		{
+			//This function validates getArea
+
+			int length = 10;
+			int width = 20;
+
+			int Result = getArea(&length, &width);
+			Assert::AreEqual(200, Result);
+		}
+
 	};
 }
+
+
 
 
 
