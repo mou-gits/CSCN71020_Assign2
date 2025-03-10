@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdbool.h>
-
 #include "main.h"
 
 void main() {
@@ -9,7 +8,6 @@ void main() {
 	bool continueProgram = true;
 	while (continueProgram) {
 		printWelcomeMenu();
-
 		printOptions();
 
 		int menuInput;
